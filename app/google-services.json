@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "615152855178",
+    "firebase_url": "https://loanapplication-f6850.firebaseio.com",
+    "project_id": "loanapplication-f6850",
+    "storage_bucket": "loanapplication-f6850.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615152855178:android:637080f3486a4341",
+        "android_client_info": {
+          "package_name": "com.example.user.newapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615152855178-7p1vq0gnl2d300tj26je6kt2on3i58lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWTEnB_herMWPC2-vkSUa8i2kEMt4FCEE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
