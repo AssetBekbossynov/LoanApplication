@@ -37,7 +37,7 @@ public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.Vi
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, final int position) {
+    public void onBindViewHolder(final ViewHolder holder, final int position) {
         Picasso.get().load(loans.get(position).photo).into(holder.logo);
 
         holder.percent.setText(loans.get(position).credit_interest_rate);
@@ -53,7 +53,7 @@ public class CustomListAdapter extends RecyclerView.Adapter<CustomListAdapter.Vi
             public void onClick(View view) {
                 if (loans.get(position).ads != null){
                     Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(loans.get(position).ads));
-                    context.startActivity(browserIntent);
+                    holder.itemView.getContext().startActivity(browserIntent);
                 }else{
                     Toast.makeText(context, "Ссылка не существует", Toast.LENGTH_SHORT).show();
                 }
